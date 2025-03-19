@@ -4,7 +4,8 @@ import './index.css';
 import App from './App.jsx';
 import Planner from './Planner.jsx';
 import KTestr from './ktestr'
-import {RouterProvider, createBrowserRouter} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
 import ActivitySetter from './ActivitySetter.jsx'
 
 const router = createBrowserRouter([
